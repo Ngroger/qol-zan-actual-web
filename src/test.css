@@ -1,0 +1,3 @@
+.pac-container:after {
+    content: none !important;
+}

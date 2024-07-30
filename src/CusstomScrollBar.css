@@ -1,0 +1,17 @@
+/* Ваш стиль для кастомного скролла */
+::-webkit-scrollbar {
+    width: 5px; /* Ширина скроллбара */
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #44CD8D; /* Цвет ползунка */
+    width: 5px;
+    border-radius: 5px; /* Скругление углов ползунка */
+}
+
+::-webkit-scrollbar-track {
+    background: #DAF5E8; /* Фон следа скроллбара */
+    height: 3px; /* Уменьшение высоты */
+    border-radius: 5px; /* Скругление углов */
+}

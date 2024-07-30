@@ -1,0 +1,801 @@
+{
+    "categories": [
+        {
+            "category": "Овощи и фрукты",
+            "icon": "VegetablesAndFruits.jpg",
+            "image": "VegetablesAndFruits.jpg",
+            "slug": "vegetables-and-fruits",
+            "subcategories": [
+                {
+                    "subcategory": "Овощи",
+                    "slug": "vegetables",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Корнеплоды",
+                            "slug": "root-vegetable",
+                            "items": [
+                                { "name": "Картофель", "slug": "potatoes" },
+                                { "name": "Морковь", "slug": "carrots" },
+                                { "name": "Свекла", "slug": "beets" },
+                                { "name": "Редька", "slug": "radishes" },
+                                { "name": "Пастернак", "slug": "parsnips" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Листовые овощи",
+                            "slug": "leafy-vegetable",
+                            "items": [
+                                { "name": "Салат Ромэн", "slug": "romaine-lettuce" },
+                                { "name": "Шпинат", "slug": "spinach" },
+                                { "name": "Листовой салат", "slug": "leaf-lettuce" },
+                                { "name": "Капуста", "slug": "cabbage" },
+                                { "name": "Мангольд", "slug": "chard" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Томаты и огурцы",
+                            "slug": "tomatoes-and-cucumbers",
+                            "items": [
+                                { "name": "Помидоры черри", "slug": "cherry-tomatoes" },
+                                { "name": "Красные помидоры", "slug": "red-tomatoes" },
+                                { "name": "Зеленые помидоры", "slug": "green-tomatoes" },
+                                { "name": "Огурцы", "slug": "cucumbers" },
+                                { "name": "Маринованные огурцы", "slug": "pickled-cucumbers" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Пряные травы",
+                            "slug": "herbs",
+                            "items": [
+                                { "name": "Петрушка", "slug": "parsley" },
+                                { "name": "Укроп", "slug": "dill" },
+                                { "name": "Кинза", "slug": "cilantro" },
+                                { "name": "Базилик", "slug": "basil" },
+                                { "name": "Мята", "slug": "mint" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Овощи для запекания",
+                            "slug": "vegetables-for-baking",
+                            "items": [
+                                { "name": "Баклажаны", "slug": "eggplants" },
+                                { "name": "Цуккини", "slug": "zucchini" },
+                                { "name": "Перец сладкий", "slug": "bell-peppers" },
+                                { "name": "Тыква", "slug": "pumpkin" },
+                                { "name": "Кабачки", "slug": "squash" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Корнеплоды и луковичные",
+                            "slug": "bulbous-and-root-vegetables",
+                            "items": [
+                                { "name": "Лук репчатый", "slug": "onions" },
+                                { "name": "Лук-порей", "slug": "leeks" },
+                                { "name": "Чеснок", "slug": "garlic" },
+                                { "name": "Имбирь", "slug": "ginger" },
+                                { "name": "Хрен", "slug": "horseradish" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Фрукты",
+                    "slug": "fruits",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Сезонные фрукты",
+                            "slug": "seasonal-fruits",
+                            "items": [
+                                { "name": "Яблоки", "slug": "apples" },
+                                { "name": "Груши", "slug": "pears" },
+                                { "name": "Сливы", "slug": "plums" },
+                                { "name": "Виноград", "slug": "grapes" },
+                                { "name": "Абрикосы", "slug": "apricots" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Экзотические фрукты",
+                            "slug": "exotic-fruits",
+                            "items": [
+                                { "name": "Манго", "slug": "mango" },
+                                { "name": "Ананасы", "slug": "pineapples" },
+                                { "name": "Киви", "slug": "kiwi" },
+                                { "name": "Папайя", "slug": "papaya" },
+                                { "name": "Драконий фрукт", "slug": "dragon-fruit" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Цитрусовые",
+                            "slug": "citrus-fruits",
+                            "items": [
+                                { "name": "Апельсины", "slug": "oranges" },
+                                { "name": "Мандарины", "slug": "mandarins" },
+                                { "name": "Лимоны", "slug": "lemons" },
+                                { "name": "Грейпфруты", "slug": "grapefruits" },
+                                { "name": "Лаймы", "slug": "limes" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Ягоды",
+                            "slug": "berries",
+                            "items": [
+                                { "name": "Клубника", "slug": "strawberries" },
+                                { "name": "Малина", "slug": "raspberries" },
+                                { "name": "Голубика", "slug": "blueberries" },
+                                { "name": "Смородина", "slug": "currants" },
+                                { "name": "Черника", "slug": "bilberries" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Тропические фрукты",
+                            "slug": "tropical-fruits",
+                            "items": [
+                                { "name": "Бананы", "slug": "bananas" },
+                                { "name": "Кокосы", "slug": "coconuts" },
+                                { "name": "Авокадо", "slug": "avocado" },
+                                { "name": "Фейхоа", "slug": "feijoa" },
+                                { "name": "Гуава", "slug": "guava" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Молочная продукция",
+            "icon": "MilkProducts.jpg",
+            "image": "MilkProducts.jpg",
+            "slug": "milk-products",
+            "subcategories": [
+                {
+                    "subcategory": "Молоко",
+                    "slug": "milk",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Свежее коровье молоко",
+                            "slug": "fresh-cow-milk",
+                            "items": [
+                                { "name": "Свежее коровье молоко", "slug": "fresh-cow-milk" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Козье молоко",
+                            "slug": "goat-milk",
+                            "items": [
+                                { "name": "Козье молоко", "slug": "goat-milk" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Кобылье молоко (Кымыз - Саумал)",
+                            "slug": "mare-milk-kumys-saumal",
+                            "items": [
+                                { "name": "Кобылье молоко (Кымыз - Саумал)", "slug": "mare-milk-kumys-saumal" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Верблюжье молоко (Шубат)",
+                            "slug": "camel-milk-shubat",
+                            "items": [
+                                { "name": "Верблюжье молоко (Шубат)", "slug": "camel-milk-shubat" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Органическое молоко",
+                            "slug": "organic-milk",
+                            "items": [
+                                { "name": "Органическое молоко", "slug": "organic-milk" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Безлактозное молоко",
+                            "slug": "lactose-free-milk",
+                            "items": [
+                                { "name": "Безлактозное молоко", "slug": "lactose-free-milk" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Сливки",
+                    "slug": "cream",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Свежие сливки",
+                            "slug": "fresh-cream",
+                            "items": [
+                                { "name": "Свежие сливки", "slug": "fresh-cream" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Сливки для кофе",
+                            "slug": "coffee-cream",
+                            "items": [
+                                { "name": "Сливки для кофе", "slug": "coffee-cream" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Взбитые сливки",
+                            "slug": "whipped-cream",
+                            "items": [
+                                { "name": "Взбитые сливки", "slug": "whipped-cream" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Сыры",
+                    "slug": "cheeses",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Мягкие сыры",
+                            "slug": "soft-cheese",
+                            "items": [
+                                { "name": "Казахский Сыр-(Сузбе)", "slug": "kazakh-cheese-suzbe" },
+                                { "name": "Брынза", "slug": "bryndza" },
+                                { "name": "Моцарелла", "slug": "mozzarella" },
+                                { "name": "Рикотта", "slug": "ricotta" },
+                                { "name": "Маскарпоне", "slug": "mascarpone" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Твёрдые сыры",
+                            "slug": "hard-cheese",
+                            "items": [
+                                { "name": "Казахский сыр - (Курт)", "slug": "kazakh-cheese-kurt" },
+                                { "name": "Чеддер", "slug": "cheddar" },
+                                { "name": "Пармезан", "slug": "parmesan" },
+                                { "name": "Гауда", "slug": "gouda" },
+                                { "name": "Эменталь", "slug": "emmental" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Сыры с плесенью",
+                            "slug": "blue-cheese",
+                            "items": [
+                                { "name": "Камамбер", "slug": "camembert" },
+                                { "name": "Бри", "slug": "brie" },
+                                { "name": "Горгонзола", "slug": "gorgonzola" },
+                                { "name": "Рокфор", "slug": "roquefort" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Йогурты",
+                    "slug": "yoghurts",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Натуральные йогурты",
+                            "slug": "natural-yogurt",
+                            "items": [
+                                { "name": "Без добавок", "slug": "plain" },
+                                { "name": "С добавками (фрукты, орехи)", "slug": "with-additions-fruits-nuts" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Питьевые йогурты",
+                            "slug": "drinking-yogurt",
+                            "items": [
+                                { "name": "С фруктовыми вкусами", "slug": "fruit-flavored" },
+                                { "name": "Без вкусовых добавок", "slug": "unflavored" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Масло",
+                    "slug": "butter",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Масло сливочное",
+                            "slug": "butter",
+                            "items": [
+                                { "name": "Солёное", "slug": "salted" },
+                                { "name": "Несолёное", "slug": "unsalted" },
+                                { "name": "Органическое", "slug": "organic" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Масло топлёное (гхи)",
+                            "slug": "clarified-butter",
+                            "items": [
+                                { "name": "Масло топлёное (гхи)", "slug": "ghee" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Кисломолочные продукты",
+                    "slug": "dairy-products",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Кефир и простокваша",
+                            "slug": "kefir-and-sour-milk",
+                            "items": [
+                                { "name": "Кефир натуральный", "slug": "natural-kefir" },
+                                { "name": "Простокваша", "slug": "fermented-milk" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Сметана",
+                            "slug": "sour-cream",
+                            "items": [
+                                { "name": "Классическая", "slug": "classic" },
+                                { "name": "Органическая", "slug": "organic" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Мясо, птица и рыба",
+            "icon": "MeatPoultryAndFish.jpg",
+            "image": "MeatPoultryAndFish.jpg",
+            "slug": "meat-bird-fish",
+            "subcategories": [
+                {
+                    "subcategory": "Мясо",
+                    "slug": "meat",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Конина",
+                            "slug": "horse-meat",
+                            "items": [
+                                { "name": "Конина", "slug": "horse-meat" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Говядина",
+                            "slug": "beef",
+                            "items": [
+                                { "name": "Баранина", "slug": "lamb" },
+                                { "name": "Оленина", "slug": "venison" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Птица",
+                    "slug": "bird",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Курятина",
+                            "slug": "chicken",
+                            "items": [
+                                { "name": "Куриные грудки", "slug": "chicken-breasts" },
+                                { "name": "Куриные крылья", "slug": "chicken-wings" },
+                                { "name": "Куриные ножки", "slug": "chicken-legs" },
+                                { "name": "Куриный фарш", "slug": "ground-chicken" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Индейка",
+                            "slug": "turkey",
+                            "items": [
+                                { "name": "Филе индейки", "slug": "turkey-breasts" },
+                                { "name": "Индюшачьи бедра", "slug": "turkey-thighs" },
+                                { "name": "Индюшачий фарш", "slug": "ground-turkey" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Утка",
+                            "slug": "duck",
+                            "items": [
+                                { "name": "Утиные грудки", "slug": "duck-breasts" },
+                                { "name": "Утиные ножки", "slug": "duck-legs" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Гусь",
+                            "slug": "goose",
+                            "items": [
+                                { "name": "Гусиное мясо", "slug": "goose-meat" },
+                                { "name": "Гусиные крылья", "slug": "goose-wings" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Перепелки",
+                            "slug": "quail",
+                            "items": [
+                                { "name": "Перепелки", "slug": "quail" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Рыба и морепродукты",
+                    "slug": "fish",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Свежая рыба",
+                            "slug": "fresh-fish",
+                            "items": [
+                                { "name": "Лосось", "slug": "salmon" },
+                                { "name": "Форель", "slug": "trout" },
+                                { "name": "Судак", "slug": "pike-perch" },
+                                { "name": "Щука", "slug": "pike" },
+                                { "name": "Сазан", "slug": "carp" },
+                                { "name": "Скумбрия", "slug": "mackerel" },
+                                { "name": "Раки", "slug": "crayfish" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Копченая рыба",
+                            "slug": "smoked-fish",
+                            "items": [
+                                { "name": "Копченый лосось", "slug": "smoked-salmon" },
+                                { "name": "Копченая скумбрия", "slug": "smoked-mackerel" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Морепродукты",
+                            "slug": "seafood",
+                            "items": [
+                                { "name": "Креветки", "slug": "shrimp" },
+                                { "name": "Мидии", "slug": "mussels" },
+                                { "name": "Устрицы", "slug": "oysters" },
+                                { "name": "Кальмары", "slug": "squid" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Икра",
+                            "slug": "caviar",
+                            "items": [
+                                { "name": "Красная икра", "slug": "red-caviar" },
+                                { "name": "Чёрная икра", "slug": "black-caviar" },
+                                { "name": "Баклажановая икра", "slug": "eggplant-caviar" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Зерновые и мучные изделия",
+            "icon": "CerealsAndFlourProducts.jpg",
+            "image": "CerealsAndFlourProducts.jpg",
+            "slug": "cereals-and-flour-products",
+            "subcategories": [
+                {
+                    "subcategory": "Зерновые",
+                    "slug": "cereals",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Крупы",
+                            "slug": "grains",
+                            "items": [
+                                { "name": "Гречневая крупа", "slug": "buckwheat" },
+                                { "name": "Рис (белый, коричневый, басмати)", "slug": "rice-white-brown-basmati" },
+                                { "name": "Кускус", "slug": "couscous" },
+                                { "name": "Булгур", "slug": "bulgur" },
+                                { "name": "Овсянка", "slug": "oatmeal" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Зерна",
+                            "slug": "seeds",
+                            "items": [
+                                { "name": "Пшеница", "slug": "wheat" },
+                                { "name": "Ячмень", "slug": "barley" },
+                                { "name": "Рожь", "slug": "rye" },
+                                { "name": "Киноа", "slug": "quinoa" },
+                                { "name": "Чиа", "slug": "chia" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Мука",
+                    "slug": "flour",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Мука",
+                            "slug": "flour",
+                            "items": [
+                                { "name": "Пшеничная мука", "slug": "wheat-flour" },
+                                { "name": "Ржаная мука", "slug": "rye-flour" },
+                                { "name": "Кукурузная мука", "slug": "corn-flour" },
+                                { "name": "Миндальная мука", "slug": "almond-flour" },
+                                { "name": "Овсяная мука", "slug": "oat-flour" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Мучные изделия",
+                    "slug": "flour-products",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Хлеб",
+                            "slug": "bread",
+                            "items": [
+                                { "name": "Белый хлеб", "slug": "white-bread" },
+                                { "name": "Чёрный хлеб", "slug": "black-bread" },
+                                { "name": "Цельнозерновой хлеб", "slug": "whole-grain-bread" },
+                                { "name": "Хлеб с семенами", "slug": "seeded-bread" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Булочки и выпечка",
+                            "slug": "buns-and-pastry",
+                            "items": [
+                                { "name": "Булочки с корицей", "slug": "cinnamon-rolls" },
+                                { "name": "Круассаны", "slug": "croissants" },
+                                { "name": "Пирожки", "slug": "pies" },
+                                { "name": "Лепешки", "slug": "flatbreads" },
+                                { "name": "Блины", "slug": "pancakes" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Макароны и паста",
+                            "slug": "pasta",
+                            "items": [
+                                { "name": "Спагетти", "slug": "spaghetti" },
+                                { "name": "Пене", "slug": "penne" },
+                                { "name": "Тальятелле", "slug": "tagliatelle" },
+                                { "name": "Лазанья", "slug": "lasagna" },
+                                { "name": "Макароны без глютена", "slug": "gluten-free-pasta" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Пироги и пирожные",
+                            "slug": "pies-and-cakes",
+                            "items": [
+                                { "name": "Яблочные пироги", "slug": "apple-pies" },
+                                { "name": "Чизкейки", "slug": "cheesecakes" },
+                                { "name": "Шоколадные кексы", "slug": "chocolate-cakes" },
+                                { "name": "Маффины", "slug": "muffins" },
+                                { "name": "Тарты", "slug": "tarts" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Продукты для заботы о себе",
+            "icon": "SelfCareProducts.jpg",
+            "image": "SelfCareProducts.jpg",
+            "slug": "self-care-products",
+            "subcategories": [
+                {
+                    "subcategory": "Уход за кожей",
+                    "slug": "skin-care",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Кремы и лосьоны",
+                            "slug": "creams-and-lotions",
+                            "items": [
+                                { "name": "Увлажняющие кремы", "slug": "moisturizing-creams" },
+                                { "name": "Питательные кремы", "slug": "nourishing-creams" },
+                                { "name": "Солнцезащитные кремы", "slug": "sunscreen-creams" },
+                                { "name": "Лосьоны для тела", "slug": "body-lotions" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Маски и скрабы",
+                            "slug": "masks-and-scrubs",
+                            "items": [
+                                { "name": "Очищающие маски", "slug": "cleansing-masks" },
+                                { "name": "Питательные маски", "slug": "nourishing-masks" },
+                                { "name": "Скрабы для лица", "slug": "face-scrubs" },
+                                { "name": "Скрабы для тела", "slug": "body-scrubs" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Масла",
+                            "slug": "oils",
+                            "items": [
+                                { "name": "Аргановое масло", "slug": "argan-oil" },
+                                { "name": "Кокосовое масло", "slug": "coconut-oil" },
+                                { "name": "Масло жожоба", "slug": "jojoba-oil" },
+                                { "name": "Миндальное масло", "slug": "almond-oil" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Уход за волосами",
+                    "slug": "hair-care",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Шампуни",
+                            "slug": "shampoos",
+                            "items": [
+                                { "name": "Шампуни для всех типов волос", "slug": "shampoos-for-all-hair-types" },
+                                { "name": "Органические шампуни", "slug": "organic-shampoos" },
+                                { "name": "Шампуни против перхоти", "slug": "anti-dandruff-shampoos" },
+                                { "name": "Шампуни для объёма", "slug": "volumizing-shampoos" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Кондиционеры",
+                            "slug": "conditioners",
+                            "items": [
+                                { "name": "Увлажняющие кондиционеры", "slug": "moisturizing-conditioners" },
+                                { "name": "Восстанавливающие кондиционеры", "slug": "repair-conditioners" },
+                                { "name": "Кондиционеры для окрашенных волос", "slug": "conditioners-for-colored-hair" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Маски и масла",
+                            "slug": "hair-masks-and-oils",
+                            "items": [
+                                { "name": "Маски для укрепления волос", "slug": "strengthening-hair-masks" },
+                                { "name": "Питательные маски", "slug": "nourishing-masks" },
+                                { "name": "Аргановое масло для волос", "slug": "argan-hair-oil" },
+                                { "name": "Кокосовое масло для волос", "slug": "coconut-hair-oil" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Уход за телом",
+                    "slug": "body-care",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Мыло",
+                            "slug": "soaps",
+                            "items": [
+                                { "name": "Натуральное мыло", "slug": "antibacterial-soap" },
+                                { "name": "Органическое мыло", "slug": "organic-soap" },
+                                { "name": "Мыло ручной работы", "slug": "handmade-soap" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Гели и пены для душа",
+                            "slug": "shower-gels-and-foams",
+                            "items": [
+                                { "name": "Увлажняющие гели", "slug": "moisturizing-gels" },
+                                { "name": "Питательные гели", "slug": "nourishing-gels" },
+                                { "name": "Пены для ванн", "slug": "bath-foams" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Дезодоранты",
+                            "slug": "deodorants",
+                            "items": [
+                                { "name": "Натуральные дезодоранты", "slug": "natural-deodorants" },
+                                { "name": "Органические дезодоранты", "slug": "organic-deodorants" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Уход за руками и ногтями",
+                            "slug": "hand-and-nail-care",
+                            "items": [
+                                { "name": "Кремы для рук", "slug": "hand-creams" },
+                                { "name": "Средства для ухода за ногтями", "slug": "moisturizing-creams" },
+                                { "name": "Мыло для рук", "slug": "nourishing-creams" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Соусы и консервация",
+            "icon": "SaucesAndPreserves.jpg",
+            "image": "SaucesAndPreserves.jpg",
+            "slug": "sauces-and-preserves",
+            "subcategories": [
+                {
+                    "subcategory": "Соусы",
+                    "slug": "sauces",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Томатные соусы",
+                            "slug": "tomato-sauces",
+                            "items": [
+                                { "name": "Классический томатный соус", "slug": "classic-tomato-sauce" },
+                                { "name": "Маринара", "slug": "marinara" },
+                                { "name": "Сальса", "slug": "salsa" },
+                                { "name": "Паста для пиццы", "slug": "pizza-sauce" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Мясные соусы",
+                            "slug": "meat-sauces",
+                            "items": [
+                                { "name": "Болоньезе", "slug": "bolognese" },
+                                { "name": "Грибной соус", "slug": "mushroom-sauce" },
+                                { "name": "Чили кон карне", "slug": "chili-con-carne" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Рыбные соусы",
+                            "slug": "fish-sauces",
+                            "items": [
+                                { "name": "Соус тартар", "slug": "tartar-sauce" },
+                                { "name": "Соус для гриля", "slug": "grill-sauce" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Пикантные соусы",
+                            "slug": "spicy-sauces",
+                            "items": [
+                                { "name": "Соус барбекю", "slug": "bbq-sauce" },
+                                { "name": "Острый чили соус", "slug": "hot-chili-sauce" },
+                                { "name": "Сладкий чили соус", "slug": "sweet-chili-sauce" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Сливочные соусы",
+                            "slug": "creamy-sauces",
+                            "items": [
+                                { "name": "Альфредо", "slug": "alfredo" },
+                                { "name": "Чесночный соус", "slug": "garlic-sauce" },
+                                { "name": "Сырный соус", "slug": "cheese-sauce" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Восточные соусы",
+                            "slug": "oriental-sauces",
+                            "items": [
+                                { "name": "Соевый соус", "slug": "soy-sauce" },
+                                { "name": "Терияки", "slug": "teriyaki" },
+                                { "name": "Унаги", "slug": "unagi" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategory": "Консервация",
+                    "slug": "conservation",
+                    "subSubcategories": [
+                        {
+                            "subSubcategoryName": "Овощные консервы",
+                            "slug": "vegetable-preserves",
+                            "items": [
+                                { "name": "Маринованные огурцы", "slug": "pickled-cucumbers" },
+                                { "name": "Консервированные помидоры", "slug": "canned-tomatoes" },
+                                { "name": "Консервированная кукуруза", "slug": "canned-corn" },
+                                { "name": "Консервированные грибы", "slug": "canned-mushrooms" },
+                                { "name": "Консервированное ассорти", "slug": "canned-assorted-vegetables" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Фруктовые консервы",
+                            "slug": "fruit-preserves",
+                            "items": [
+                                { "name": "Консервированные персики", "slug": "canned-peaches" },
+                                { "name": "Консервированные ананасы", "slug": "canned-pineapples" },
+                                { "name": "Консервированные яблоки", "slug": "canned-apples" },
+                                { "name": "Консервированная груша", "slug": "canned-pears" },
+                                { "name": "Вишня в сиропе", "slug": "cherries-in-syrup" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Джемы и варенья",
+                            "slug": "jams-and-marmalades",
+                            "items": [
+                                { "name": "Клубничное варенье", "slug": "strawberry-jam" },
+                                { "name": "Абрикосовый джем", "slug": "apricot-jam" },
+                                { "name": "Малиновый джем", "slug": "raspberry-jam" },
+                                { "name": "Чёрничное варенье", "slug": "blueberry-preserve" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Маринады",
+                            "slug": "marinades",
+                            "items": [
+                                { "name": "Маринованный чеснок", "slug": "pickled-garlic" },
+                                { "name": "Маринованные перцы", "slug": "pickled-peppers" },
+                                { "name": "Маринованный лук", "slug": "pickled-onions" }
+                            ]
+                        },
+                        {
+                            "subSubcategoryName": "Компоты и соки",
+                            "slug": "compotes-and-juices",
+                            "items": [
+                                { "name": "Компот из яблок", "slug": "apple-compote" },
+                                { "name": "Компот из вишни", "slug": "cherry-compote" },
+                                { "name": "Соки (апельсиновый, яблочный, гранатовый)", "slug": "juices" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
